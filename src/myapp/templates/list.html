@@ -1,0 +1,8 @@
+<center>
+    {% for object in object_list %}
+    {{ object.text }}
+    <hr>
+    {% empty %}
+    <p>Nothing yet</p>
+    {% endfor %}
+</center>
